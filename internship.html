@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <style>
+         nav {
+            font-size: 25.5px;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(45deg, white, darkblue);
+            padding: 10px;
+            padding-left: 300px;
+            padding-right: 300px;
+           
+        }
+
+        nav a{
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+            text-decoration: none;
+            font-weight: 600;
+            color: black;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color:black;
+            
+            border-bottom-color:white;
+            border-top-color:white ;
+            color:white;
+
+        }
+        .main_container
+        {
+           display: grid;
+           grid-template-columns: 6fr 6fr;
+           background: linear-gradient(45deg, black,darkblue);
+        }
+        .heading
+        {
+            color: darkcyan;
+            font-size: 40px;
+            font-family: cursive;
+            padding-left: 140px;
+            padding-top: 170px;
+            
+
+        }
+        .about
+        {
+            color: azure;
+            font-size: medium;
+            font-family: 'Lucida Sans';
+            padding-left: 70px;
+            padding-right: 0px;
+           
+        }
+        .container2
+        {
+            border:5px solid wheat;
+            border-radius: 60%;
+            margin-right: 100px;
+            margin-top:100px ;
+            margin-bottom: 400px;
+            margin-left: 200px;
+            height:400px;
+            width:300px;
+            background-image: url(../public/images/Tanisha.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 400px;
+            
+
+        }
+        
+       
+
+    </style>
+</head>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<body>
+    <nav>
+
+        <a href="../public/internship.html">Home</a>
+        <a href="../public/aboutme.html">About Me</a>
+        <div class="resume">
+            <a href="../public/Tanisha Resume.pdf">Resume</a>
+        </div>
+        <a href="../public/contactme.html">Contact Me</a>
+        
+    </nav>
+
+    <div class="main_container">
+        <div class="container1">
+            <div class="heading">Frontend Developer</div><br>
+                <div class="about">I am a skilled front-end developer with a strong
+                     foundation in web development, adept at creating responsive 
+                     and visually appealing user interfaces. My expertise includes
+                      proficiency in HTML, CSS,ensuring seamless and 
+                      engaging user experiences.</div>
+               
+                
+            
+        </div>
+        <div class="container2">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
